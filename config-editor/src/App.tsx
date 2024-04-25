@@ -1,18 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { Navbar } from './navbar/Navbar';
+import Navbar from './navbar/Navbar';
 
 function App() {
+  const appName = 'config-editor'
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <Navbar />
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          WIP
-        </p>
-      </header>
+    <div>
+        <Navbar appName={appName} />
+        <div className="Content">
+          <div className="Options"></div>
+          <textarea className='Config-output' name="" id="" cols={50} rows={10}></textarea>
+        </div>
     </div>
   );
 }
