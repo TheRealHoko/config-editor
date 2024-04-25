@@ -1,0 +1,22 @@
+.Navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Title {
+    color: var(--text);
+    border: 5px solid var(--primary);
+    border-radius: 32px;
+    padding: 1%;
+    margin: 0.5rem;
+}
+
+.Config-type {
+    margin: 0.5rem;
+    background-color: transparent;
+    border: 2px solid var(--secondary);
+    border-radius: 32px;
+    outline: none;
+    height: fit-content;
+}
