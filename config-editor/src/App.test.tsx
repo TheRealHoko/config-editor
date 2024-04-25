@@ -6,4 +6,5 @@ test('renders app name', () => {
   render(<App />);
   const appName = screen.getByText(/config-editor/i);
   expect(appName).toBeInTheDocument();
+  
 })
