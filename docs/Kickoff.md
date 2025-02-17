@@ -43,9 +43,9 @@ Config Editor utilizes a modular architecture that supports extensibility and in
 
 ### 3.3 Technology Stack
 
-- Frontend: React.js for a responsive and interactive UI.
-- Backend: Node.js with Express for API management.
-- Storage: MongoDB for storing user profiles and configuration templates.
+- Frontend: Nice GUI for a responsive and interactive UI.
+- Backend: Fast API for API management.
+- Storage: TBD
 - Deployment: Docker for containerization and Kubernetes for orchestration.
 
 ### 3.4 Integration Points
@@ -86,11 +86,6 @@ Config Editor aims to set a benchmark for open-source development tools by provi
 - Phase 1: Core functionality development and initial community building.
 - Phase 2: Feature enhancements, security improvements, and beta release.
 - Phase 3: Full-scale launch, based on community feedback and iterative improvements.
-
-#### Key milestones and timelines:
-
-- Q2 2024: Beta release.
-- Q3 2024: Full product launch.
 
 ## 6. Risks and Mitigation Strategies
 
